@@ -18,4 +18,9 @@ public class LibraryServiceImpl implements LibraryService {
         return lbdao.selectLibrary(cpg - 1);
     }
 
+    @Override
+    public int countLibrary() {
+        return lbdao.countLibrary();
+    }
+
 }

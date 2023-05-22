@@ -7,5 +7,6 @@ import java.util.List;
 public interface LibraryService {
 
     List<Library> readLibrary(int cpg);
+    int countLibrary();
 
 }
