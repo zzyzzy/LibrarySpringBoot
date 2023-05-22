@@ -68,7 +68,7 @@
 
             <div class="row">
                 <div class="offset-2 col-8">
-                    <nav>
+<!--                    <nav>
                         <ul class="pagination justify-content-center">
 
                             <th:block th:if="${cpg gt 1}">
@@ -76,8 +76,8 @@
                                     <a class="page-link" th:href="|${pglink}1|">처음</a></li>
                             </th:block>
 
-                            <!--<th:block th:if="${cpg - 1 gt 0}"><li class="page-item"></th:block>
-                            <th:block th:unless="${cpg - 1 gt 0}"><li class="page-item disabled"></th:block>-->
+                            &lt;!&ndash;<th:block th:if="${cpg - 1 gt 0}"><li class="page-item"></th:block>
+                            <th:block th:unless="${cpg - 1 gt 0}"><li class="page-item disabled"></th:block>&ndash;&gt;
                             <li th:class="${ (cpg - 1 gt 0) ? 'page-item' : 'page-item disabled'}">
                                 <a class="page-link" th:href="|${pglink}${cpg - 1}|">이전</a></li>
 
@@ -100,7 +100,7 @@
 
                         </ul>
                     </nav>
-                    <th:block th:text="|${pglink} / ${cntpg}|"></th:block>
+                    <th:block th:text="|${pglink} / ${cntpg}|"></th:block>-->
                 </div>
             </div>
 
