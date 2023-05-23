@@ -11,6 +11,6 @@ public interface LibraryRepository
 
     Page findAll(Pageable paging);
 
-    @Query("select ceil(count(lbno)/25) from Library")
-    int countLibraryBy();
+    /*@Query("select ceil(count(lbno)/25) from Library")
+    int countLibraryBy();*/
 }
